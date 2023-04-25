@@ -42,7 +42,7 @@ include 'components/save_send.php';
          <div class="flex">
             <div class="box">
                <p>Enter location</p>
-               <input type="text" name="location" required maxlength="50" placeholder="enter ciyt name" class="input">
+               <input type="text" name="location" required maxlength="50" placeholder="enter City name" class="input">
             </div>
             <div class="box">
                <p>Offer type</p>
@@ -53,11 +53,13 @@ include 'components/save_send.php';
                </select>
             </div>
             <div class="box">
-               <p>property type</p>
+               <p>Property type</p>
                <select name="type" class="input" required>
                   <option value="flat">flat</option>
                   <option value="house">house</option>
                   <option value="shop">shop</option>
+                   <option value="land">Land</option>
+                   <option value="other">Other</option>
                </select>
             </div>
             <div class="box">
@@ -72,6 +74,7 @@ include 'components/save_send.php';
                   <option value="7">7 BHK</option>
                   <option value="8">8 BHK</option>
                   <option value="9">9 BHK</option>
+                   <option value="10">10 BHK</option>
                </select>
             </div>
             <div class="box">
