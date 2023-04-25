@@ -12,7 +12,9 @@
              <img src="images/white.png" style="width:100px"/>
          </a>
          <ul>
-            <li><a href="post_property.php">Post Property<i class="fas fa-paper-plane"></i></a></li>
+             <?=
+             isset($_COOKIE['user_id']) ? "<li><a href=\"dashboard.php\"><i class='fa fa-dashboard'></i> Dashboard</a></li>" : "<li><a href=\"login.php\"><i class='fa fa-signin'></i>LOGIN</a></li>";
+             ?>
          </ul>
       </section>
    </nav>
@@ -25,9 +27,14 @@
             <ul>
                <li><a href="#">my listings<i class="fas fa-angle-down"></i></a>
                   <ul>
-                     <li><a href="dashboard.php">dashboard</a></li>
-                     <li><a href="post_property.php">post property</a></li>
+                      <?=
+                      isset($_COOKIE['user_id']) ? "<li><a href=\"dashboard.php\">dashboard</a></li>" : "<li><a href=\"login.php\">LOGIN</a></li>";
+                      ?>
+                      <li><a href="post_property.php">post property</a></li>
                      <li><a href="my_listings.php">my listings</a></li>
+                      <?=
+                      isset($_COOKIE['user_id']) ? "<li><a href=\"components/user_logout.php\">Logout</a></li>" : "";
+                      ?>
                   </ul>
                </li>
                <li><a href="#">options<i class="fas fa-angle-down"></i></a>
