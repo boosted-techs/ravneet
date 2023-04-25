@@ -23,6 +23,11 @@ if(isset($_COOKIE['user_id'])){
 
    <!-- custom css file link  -->
    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .content, .content h3, .content p {
+            text-align: left !important;
+        }
+    </style>
 
 </head>
 <body>
@@ -31,27 +36,23 @@ if(isset($_COOKIE['user_id'])){
 
 <!-- about section starts  -->
 
-<section class="about">
+<section class="about" style="width: 80%; margin: auto; margin-top: 50px">
 
    <div class="row">
       <div class="image">
-         <img src="images/about-img.svg" alt="">
+         <img src="images/team.jpeg" alt="">
       </div>
       <div class="content">
          <h3>About Us</h3>
-         <p>
-		 Ravneet management Ltd was incorporated on 14 February 2022. Its Consultancy is in Property management, Land surveying, valuation and real Estate. 
-		 
-	
+         <p style="text-align: left">
+		 Ravneet management Ltd was incorporated on 14 February 2022. Its Consultancy is in Property management, Land surveying, valuation and real Estate.
 		 </p>
 		 
 		 
-		 <a href="contact.html" class="inline-btn">contact us</a>
+		 <a href="contact.php" class="inline-btn">contact us</a>
       </div>
    </div>
-
-
- <div class="row">
+ <div class="row" style="margin-top: 40px;">
     
       <div class="content">
          <h3>Vision</h3>
@@ -164,151 +165,24 @@ Facilitating financial literacy trainings to all individuals and also
       <div class="box">
          <img src="images/step-1.png" alt="">
          <h3>search property</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, placeat.</p>
+<!--         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, placeat.</p>-->
       </div>
 
       <div class="box">
          <img src="images/step-2.png" alt="">
          <h3>contact agents</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, placeat.</p>
+<!--         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, placeat.</p>-->
       </div>
 
       <div class="box">
          <img src="images/step-3.png" alt="">
          <h3>enjoy property</h3>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, placeat.</p>
+<!--         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, placeat.</p>-->
       </div>
 
    </div>
 
 </section>
-
-<!-- steps section ends -->
-
-<!-- review section starts  -->
-
-<section class="reviews">
-
-   <h1 class="heading">client's reviews</h1>
-
-   <div class="box-container">
-
-      <div class="box">
-         <div class="user">
-            <img src="images/pic-1.png" alt="">
-            <div>
-               <h3>john deo</h3>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
-               </div>
-            </div>
-         </div>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci voluptates delectus distinctio quam sequi error eum suscipit tempore inventore ex!</p>
-      </div>
-
-      <div class="box">
-         <div class="user">
-            <img src="images/pic-2.png" alt="">
-            <div>
-               <h3>john deo</h3>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
-               </div>
-            </div>
-         </div>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci voluptates delectus distinctio quam sequi error eum suscipit tempore inventore ex!</p>
-      </div>
-
-      <div class="box">
-         <div class="user">
-            <img src="images/pic-3.png" alt="">
-            <div>
-               <h3>john deo</h3>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
-               </div>
-            </div>
-         </div>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci voluptates delectus distinctio quam sequi error eum suscipit tempore inventore ex!</p>
-      </div>
-
-      <div class="box">
-         <div class="user">
-            <img src="images/pic-4.png" alt="">
-            <div>
-               <h3>john deo</h3>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
-               </div>
-            </div>
-         </div>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci voluptates delectus distinctio quam sequi error eum suscipit tempore inventore ex!</p>
-      </div>
-
-      <div class="box">
-         <div class="user">
-            <img src="images/pic-5.png" alt="">
-            <div>
-               <h3>john deo</h3>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
-               </div>
-            </div>
-         </div>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci voluptates delectus distinctio quam sequi error eum suscipit tempore inventore ex!</p>
-      </div>
-
-      <div class="box">
-         <div class="user">
-            <img src="images/pic-6.png" alt="">
-            <div>
-               <h3>john deo</h3>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
-               </div>
-            </div>
-         </div>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci voluptates delectus distinctio quam sequi error eum suscipit tempore inventore ex!</p>
-      </div>
-
-   </div>
-
-</section>
-
-<!-- review section ends -->
-
-
-
-
-
-
-
-
-
 
 <?php include 'components/footer.php'; ?>
 

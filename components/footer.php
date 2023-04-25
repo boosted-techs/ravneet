@@ -20,10 +20,10 @@
       </div>
 
       <div class="box">
-         <a href="#"><span>facebook</span><i class="fab fa-facebook-f"></i></a>
-         <a href="#"><span>twitter</span><i class="fab fa-twitter"></i></a>
-         <a href="#"><span>linkedin</span><i class="fab fa-linkedin"></i></a>
-         <a href="#"><span>instagram</span><i class="fab fa-instagram"></i></a>
+<!--         <a href="#"><i class="fab fa-facebook-f">&nbsp;&nbsp;&nbsp;<span>facebook</span></i></a>-->
+         <a href="https://twitter.com/RAVNEET_MGT_LTD/status/1641682929502830593?s=20"><i class="fab fa-twitter"></i>&nbsp;&nbsp;<span>twitter</span></a>
+<!--         <a href="#"><i class="fab fa-linkedin"></i>&nbsp;&nbsp;<span>linkedin</span></a>-->
+         <a href="https://www.instagram.com/p/CqcYi51M8yN/?utm_source=ig_web_copy_link"><i class="fab fa-instagram"></i>&nbsp;&nbsp;<span>instagram</span></a>
 
       </div>
 

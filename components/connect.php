@@ -5,9 +5,10 @@
    $db_user_pass = 'root';
    $db = "ravneet";
 
-   $conn = new PDO($server, $db_user_name, $db_user_pass, $db);
+   $conn = $pdo = new PDO("mysql:host=localhost;dbname=ravneet", "root", $db_user_pass, []);
 
-   function create_unique_id(){
+
+function create_unique_id(){
       $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
       $charactersLength = strlen($characters);
       $randomString = '';

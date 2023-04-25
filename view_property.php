@@ -27,7 +27,7 @@ include 'components/save_send.php';
    <title>View Property</title>
 
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon.png">
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 

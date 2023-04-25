@@ -1,13 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
 
 :root{
-   --main-color:#318cf1;
+   /*--main-color:#318cf1;*/
+   --main-color: #fcaf35;
    --light-color:#666;
-   --light-bg:#eee;
+   /*--light-bg:#eee;*/
+   --light-bg: #fafafa;
    --white:#fff;
-   --black:#303030;
+   --dark-bg:#00326a;
+   --black: #318cf1;
    --border:.1rem solid var(--light-color);
    --box-shodow:0 .5rem 1rem rgba(0,0,0,.1);
+}
+
+:root {
+   /*--main-color: #318cf1;*/
+   --main-color: #f8b400;
+   --secondary-color: #fe5f55;
+   --accent-color: #f8b400;
+   /*--black: #2c3e50;*/
+   --black: #318cf1;
+   --light-bg: #f5f5f5;
+   --text-color: #333;
+   --border-color: #ccc;
 }
 
 *{
@@ -45,6 +60,7 @@ html{
 
 body{
    background-color: var(--light-bg);
+   color: var(--text-color);
 }
 
 section{
@@ -195,7 +211,7 @@ section{
 }
 
 .home{
-   background:url('../images/home-bg.jpg') no-repeat;
+   background:url('../images/homes004px.gif') no-repeat;
    background-size: cover;
    background-position: center;
 }
@@ -1142,7 +1158,7 @@ section{
 
 
 .footer{
-   background-color: var(--black);
+   background-color: var(--dark-bg);
 }
 
 .footer .flex{
@@ -1218,6 +1234,10 @@ section{
 
    html{
       font-size: 55%;
+   }
+
+   .header .navbar.nav-2 .flex {
+      height: 50px;
    }
 
 }
@@ -1348,4 +1368,9 @@ section{
       height: 20rem;
    }
 
+}
+
+.box > a {
+   text-align: left !important;
+   text-transform: uppercase;
 }

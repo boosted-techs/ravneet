@@ -18,8 +18,8 @@ include 'components/save_send.php';
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Home</title>
-
+   <title>Ravneet Management Servives-Home</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/icon.png">
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
@@ -51,6 +51,8 @@ include 'components/save_send.php';
                   <option value="flat">flat</option>
                   <option value="house">house</option>
                   <option value="shop">shop</option>
+                   <option value="land">Land</option>
+                   <option value="other">Other</option>
                </select>
             </div>
             <div class="box">
@@ -62,15 +64,16 @@ include 'components/save_send.php';
                </select>
             </div>
             <div class="box">
-               <p>maximum budget <span>*</span></p>
+               <p>Minimum budget <span>*</span></p>
                <select name="h_min" class="input" required>
+
                   <option value="5000">5k</option>
                   <option value="10000">10k</option>
                   <option value="15000">15k</option>
                   <option value="20000">20k</option>
                   <option value="30000">30k</option>
                   <option value="40000">40k</option>
-                  <option value="40000">40k</option>
+
                   <option value="50000">50k</option>
                   <option value="100000">1 lac</option>
                   <option value="500000">5 lac</option>
@@ -107,7 +110,7 @@ include 'components/save_send.php';
                   <option value="20000">20k</option>
                   <option value="30000">30k</option>
                   <option value="40000">40k</option>
-                  <option value="40000">40k</option>
+
                   <option value="50000">50k</option>
                   <option value="100000">1 lac</option>
                   <option value="500000">5 lac</option>
@@ -156,25 +159,25 @@ include 'components/save_send.php';
       <div class="box">
          <img src="images/icon-1.png" alt="">
          <h3>Buy Land/House </h3>
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>
+<!--         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>-->
       </div>
 
       <div class="box">
          <img src="images/icon-2.png" alt="">
          <h3>Rent/Hire Land</h3>
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>
+<!--         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>-->
       </div>
 
       <div class="box">
          <img src="images/icon-3.png" alt="">
          <h3>sell house</h3>
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>
+<!--         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>-->
       </div>
 
       <div class="box">
          <img src="images/icon-4.png" alt="">
          <h3>flats and buildings</h3>
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>
+<!--         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>-->
       </div>
 
 
@@ -182,7 +185,7 @@ include 'components/save_send.php';
       <div class="box">
          <img src="images/icon-6.png" alt="">
          <h3>24/7 service</h3>
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>
+<!--         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque, incidunt.</p>-->
       </div>
 
    </div>
