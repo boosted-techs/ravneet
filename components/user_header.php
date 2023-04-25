@@ -13,7 +13,7 @@
          </a>
          <ul>
              <?=
-             isset($_COOKIE['user_id']) ? "<li><a href=\"dashboard.php\"><i class='fa fa-dashboard'></i> Dashboard</a></li>" : "<li><a href=\"login.php\"><i class='fa fa-signin'></i>LOGIN</a></li>";
+             isset($_COOKIE['user_id']) ? "<li><a href=\"dashboard.php\"><i class='fa fa-dashboard'></i> Dashboard</a></li>" : "<li><a href=\"login.php\"><i class='fa fa-sign-in'></i> LOGIN</a></li>";
              ?>
          </ul>
       </section>
@@ -25,31 +25,26 @@
 
          <div class="menu">
             <ul>
-               <li><a href="#">my listings<i class="fas fa-angle-down"></i></a>
-                  <ul>
-                      <?=
-                      isset($_COOKIE['user_id']) ? "<li><a href=\"dashboard.php\">dashboard</a></li>" : "<li><a href=\"login.php\">LOGIN</a></li>";
-                      ?>
-                      <li><a href="post_property.php">post property</a></li>
-                     <li><a href="my_listings.php">my listings</a></li>
-                      <?=
-                      isset($_COOKIE['user_id']) ? "<li><a href=\"components/user_logout.php\">Logout</a></li>" : "";
-                      ?>
-                  </ul>
-               </li>
-               <li><a href="#">options<i class="fas fa-angle-down"></i></a>
-                  <ul>
-                     <li><a href="search.php">filter search</a></li>
-                     <li><a href="listings.php">all listings</a></li>
-                  </ul>
-               </li>
-               <li><a href="#">help<i class="fas fa-angle-down"></i></a>
-                  <ul>
-                     <li><a href="about.php">about us</a></i></li>
-                     <li><a href="contact.php">contact us</a></i></li>
-                     <li><a href="contact.php#faq">FAQ</a></i></li>
-                  </ul>
-               </li>
+                <li><a href="home.php"><i class="fa fa-home"></i> HOME</a></i></li>
+                <li><a href="about.php">about us</a></i></li>
+                <li><a href="contact.php">contact us</a></i></li>
+                <li><a href="contact.php#faq">FAQ</a></i></li>
+                <li><a class="l-active"  href="post_property.php">post property</a></li>
+                <li><a href="#">options<i class="fas fa-angle-down"></i></a>
+                    <ul>
+                        <li><a href="search.php">filter search</a></li>
+                        <li><a href="listings.php">all listings</a></li>
+                        <?=
+                        isset($_COOKIE['user_id']) ? "<li><a href=\"dashboard.php\">dashboard</a></li>" : "<li><a href=\"login.php\">LOGIN</a></li>";
+                        ?>
+                        <?=
+                        isset($_COOKIE['user_id']) ? "<li><a href=\"my_listings.php\">my listings</a></li>" : "";
+                        ?>
+                        <?=
+                        isset($_COOKIE['user_id']) ? "<li><a href=\"components/user_logout.php\">Logout</a></li>" : "";
+                        ?>
+                    </ul>
+                </li>
             </ul>
          </div>
 <!--         <ul>-->

@@ -510,6 +510,10 @@ section{
    background-color: var(--main-color);
 }
 
+.l-active {
+   background-color: var(--main-color) !important;
+   color : #ffffff !important;
+}
 .view-property .details .images-container img{
    height: 40rem;
    object-fit: cover;
